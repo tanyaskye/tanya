@@ -94,30 +94,28 @@ const Index = () => {
                 <div
                   className="subtitle"
                 >
-                  UI UX DESIGNER
+                  Physiotherapist
                 </div>
                 <h2
                   className="title"
                 >
-                  Federico Ober
+                  Tanya Agrawal
                 </h2>
               </div>
               <div
                 className="description"
               >
                 <p>
-                  I am UI/UX Designer based in New York and enjoy playing
-                  with colors. I love travelling, photography &amp; music.
+                Passionate physiotherapist with expertise in musculoskeletal & sports rehab. 
+                Committed to patient care, utilizing advanced therapies &amp; empowering 
+                individuals for optimal recovery and wellness.
                 </p>
                 <div className="social-links">
-                  <a target="_blank" rel="noreferrer" href="#">
-                    <i aria-hidden="true" className="fab fa-twitter" />
+                  <a target="_blank" rel="noreferrer" href="https://www.instagram.com/tanyaagrawal.1652/">
+                    <i aria-hidden="true" className="fab fa-instagram" />
                   </a>
-                  <a target="_blank" rel="noreferrer" href="#">
-                    <i aria-hidden="true" className="fab fa-dribbble" />
-                  </a>
-                  <a target="_blank" rel="noreferrer" href="#">
-                    <i aria-hidden="true" className="fab fa-behance" />
+                  <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/tanya-agrawal-4093081b5/">
+                    <i aria-hidden="true" className="fab fa-linkedin" />
                   </a>
                 </div>
               </div>
@@ -125,13 +123,13 @@ const Index = () => {
             <div className="info-list">
               <ul>
                 <li>
-                  Born in <strong>NewYork</strong>
+                  From <strong>Jaipur, India</strong>
                 </li>
                 <li>
-                  Experience <strong>7+ Years</strong>
+                  Experience <strong>2+ Years</strong>
                 </li>
                 <li>
-                  Date of Birth <strong>27 June 1992</strong>
+                Volunteer Experience <strong>3+ Years</strong>
                 </li>
               </ul>
             </div>
@@ -161,7 +159,7 @@ const Index = () => {
                   <div className="icon">
                     <i aria-hidden="true" className="far fa-check-circle" />
                   </div>
-                  <div className="num">124</div>
+                  <div className="num">5</div>
                   <div className="title">
                     Completed <br />
                     Project
@@ -173,7 +171,7 @@ const Index = () => {
                   <div className="icon">
                     <i aria-hidden="true" className="far fa-smile-beam" />
                   </div>
-                  <div className="num">65</div>
+                  <div className="num">500+</div>
                   <div className="title">
                     Happy <br />
                     Clients
@@ -185,7 +183,7 @@ const Index = () => {
                   <div className="icon">
                     <i aria-hidden="true" className="far fa-gem" />
                   </div>
-                  <div className="num">18</div>
+                  <div className="num">7</div>
                   <div className="title">
                     Awards <br />
                     Won
@@ -200,21 +198,19 @@ const Index = () => {
                   className="text"
                 >
                   <p>
-                    My name is Federico Ober. I have been studying UI UX Design
-                    since October 2020. I like creating a cool design project.
+                    Hello! I'm Tanya Agrawal, a Glasgow-based physiotherapist 
+                    passionate about personalized care and advanced rehabilitation.
                   </p>
                   <p>
-                    Donec imperdiet risus at tortor consequat maximus et eget
-                    magna. Cras ornare sagittis augue, id sollicitudin justo
-                    tristique ut. Nullam ex enim, euismod vel bibendum ultrices,
-                    fringilla vel eros. Donec euismod leo lectus, et euismod
-                    metus euismod sed. Quisque quis suscipit ipsum, at
-                    pellentesque velit. Duis a congue sem.
+                    With a strong foundation in neuro-musculoskeletal and sports 
+                    rehab, I strive to empower individuals on their journey to 
+                    optimal wellness. My approach combines expertise in manual 
+                    therapy, cognitive communication, and patient-centered care.
                   </p>
                   <p>
-                    In sed dolor ut ligula malesuada sollicitudin. Morbi iaculis
-                    convallis arcu, nec maximus tellus sodales in. Curabitur
-                    blandit enim at nisl lobortis, non pretium enim hendrer
+                    I'm dedicated to helping you achieve optimal wellness 
+                    through tailored treatments and a holistic perspective 
+                    on health. Let's work together towards a healthier, happier you!
                   </p>
                   <a
                     href="#contact-section"
@@ -254,12 +250,11 @@ const Index = () => {
                 className="text"
               >
                 <p>
-                  Talented UX designer with 7+ years of experience, seeking to
-                  elevate UI/UX at ABC, Inc. As Lead UI/UX Head completed
-                  project before dead line. ittis augue, id sollicitudin justo
-                  tristique ut. Nullam ex enim, euismod vel bibendum ultrices,
-                  fringilla vel eros. Donec euism od leo um, at pellentesque
-                  velituis a congue sem.
+                  Explore my professional journey and qualifications in 
+                  the field of physiotherapy. From a Master's in Advanced 
+                  Physiotherapy Practices to extensive experience in 
+                  musculoskeletal and sports rehabilitation, discover 
+                  how I can contribute to your health and wellness needs.
                 </p>
               </div>
               {/* Skills */}
@@ -272,7 +267,7 @@ const Index = () => {
                 <div
                   className="skills-item"
                 >
-                  <div className="name">Photoshop</div>
+                  <div className="name">Manual Therapy</div>
                   <div className="dots dots-90">
                     <div className="dots-row">
                       <div className="dot" />
@@ -294,7 +289,7 @@ const Index = () => {
                 <div
                   className="skills-item"
                 >
-                  <div className="name">WordPress</div>
+                  <div className="name">Sports Rehabilitation</div>
                   <div className="dots dots-60">
                     <div className="dots-row">
                       <div className="dot" />
@@ -316,7 +311,7 @@ const Index = () => {
                 <div
                   className="skills-item"
                 >
-                  <div className="name">HTML</div>
+                  <div className="name">Patient Care</div>
                   <div className="dots dots-80">
                     <div className="dots-row">
                       <div className="dot" />
@@ -338,7 +333,7 @@ const Index = () => {
                 <div
                   className="skills-item"
                 >
-                  <div className="name">Java</div>
+                  <div className="name">Critical Thinking</div>
                   <div className="dots dots-50">
                     <div className="dots-row">
                       <div className="dot" />
@@ -354,13 +349,13 @@ const Index = () => {
                     </div>
                   </div>
                   <div className="value">
-                    <span className="num">50%</span>
+                    <span className="num">90%</span>
                   </div>
                 </div>
                 <div
                   className="skills-item"
                 >
-                  <div className="name">jQuery</div>
+                  <div className="name">Leadership</div>
                   <div className="dots dots-70">
                     <div className="dots-row">
                       <div className="dot" />
@@ -376,7 +371,7 @@ const Index = () => {
                     </div>
                   </div>
                   <div className="value">
-                    <span className="num">70%</span>
+                    <span className="num">90%</span>
                   </div>
                 </div>
               </div>
