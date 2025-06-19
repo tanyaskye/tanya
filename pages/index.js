@@ -387,18 +387,19 @@ const Index = () => {
                     className="services-item"
                   >
                     <div className="icon">
-                      <i aria-hidden="true" className="fab fa-chrome" />
+                      <i aria-hidden="true" className="fab fa-dumbbell" />
                     </div>
-                    <div className="title">Web development</div>
+                    <div className="title">Musculoskeletal Rehabilitation</div>
                     <div className="text">
                       <p>
-                        Modern and mobile-ready website that will help you reach
-                        all of your marketing.
+                        Restore mobility, reduce pain, and improve 
+                        function through personalized treatment plans 
+                        tailored to your specific needs.
                       </p>
                     </div>
-                    <a href="#contact-section" className="lnk">
+                    {/* <a href="#contact-section" className="lnk">
                       order now
-                    </a>
+                    </a> */}
                   </div>
                 </div>
                 <div className="services-col">
@@ -406,18 +407,19 @@ const Index = () => {
                     className="services-item"
                   >
                     <div className="icon">
-                      <i aria-hidden="true" className="fab fa-soundcloud" />
+                      <i aria-hidden="true" className="fab fa-person-walking" />
                     </div>
-                    <div className="title">Music writing</div>
+                    <div className="title">Post-Surgical Rehabilitation</div>
                     <div className="text">
                       <p>
-                        Music copying, writing, creating, transcription and
-                        composition services.
+                        Regain strength and mobility after surgery with a 
+                        comprehensive rehabilitation program designed to 
+                        facilitate optimal recovery.
                       </p>
                     </div>
-                    <a href="#contact-section" className="lnk">
+                    {/* <a href="#contact-section" className="lnk">
                       order now
-                    </a>
+                    </a> */}
                   </div>
                 </div>
                 <div className="services-col">
@@ -425,18 +427,19 @@ const Index = () => {
                     className="services-item"
                   >
                     <div className="icon">
-                      <i aria-hidden="true" className="fab fa-adversal" />
+                      <i aria-hidden="true" className="fab fa-bars-progress" />
                     </div>
-                    <div className="title">Advetising</div>
+                    <div className="title">Pain Management</div>
                     <div className="text">
                       <p>
-                        Advertising services include television, radio, print,
-                        mail, and web apps.
+                        Alleviate chronic pain and discomfort through 
+                        targeted therapies and techniques, empowering you 
+                        to live a pain-free life.
                       </p>
                     </div>
-                    <a href="#contact-section" className="lnk">
+                    {/* <a href="#contact-section" className="lnk">
                       order now
-                    </a>
+                    </a> */}
                   </div>
                 </div>
                 <div className="services-col">
@@ -444,18 +447,60 @@ const Index = () => {
                     className="services-item"
                   >
                     <div className="icon">
-                      <i aria-hidden="true" className="fas fa-gamepad" />
+                      <i aria-hidden="true" className="fas fa-heart-pulse" />
                     </div>
-                    <div className="title">Game Development</div>
+                    <div className="title">Preventive Care and Wellness</div>
                     <div className="text">
                       <p>
-                        Developing memorable and unique mobile android, ios and
-                        video games.
+                        Enhance your overall well-being and prevent future 
+                        injuries with customized exercise programs and 
+                        lifestyle recommendations.
                       </p>
                     </div>
-                    <a href="#contact-section" className="lnk">
+                    {/* <a href="#contact-section" className="lnk">
                       order now
-                    </a>
+                    </a> */}
+                  </div>
+                </div>
+                <div className="services-col">
+                  <div
+                    className="services-item"
+                  >
+                    <div className="icon">
+                      <i aria-hidden="true" className="fab fa-brain" />
+                    </div>
+                    <div className="title">Mental Rehabilitation</div>
+                    <div className="text">
+                      <p>
+                        Rehabilitation with the aim to develop the 
+                        emotional, social, physical and intellectual 
+                        skills to live, learn and work in the community 
+                        with complete independency.
+                      </p>
+                    </div>
+                    {/* <a href="#contact-section" className="lnk">
+                      order now
+                    </a> */}
+                  </div>
+                </div>
+                <div className="services-col">
+                  <div
+                    className="services-item"
+                  >
+                    <div className="icon">
+                      <i aria-hidden="true" className="fab fa-hand-holding-heart" />
+                    </div>
+                    <div className="title">Pelvic floor Rehabilitation</div>
+                    <div className="text">
+                      <p>
+                        Rehab of pelvic floor instabilities and 
+                        dis-functions with the aim to enhance functionality 
+                        in women's activities of daily living.
+                      </p>
+                    </div>
+                    {/* <a href="#contact-section" className="lnk">
+                      order now
+                    </a> */}
                   </div>
                 </div>
               </div>
