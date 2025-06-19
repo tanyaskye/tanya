@@ -185,99 +185,11 @@ const Header = () => {
                     </li>
                     <li className="menu-item">
                       <a
-                        href="/#works-section"
-                        onClick={() => linkClick()}
-                      >
-                        Works
-                      </a>
-                    </li>
-                    <li className="menu-item">
-                      <a
-                        href="/#pricing-section"
-                        onClick={() => linkClick()}
-                      >
-                        Pricing
-                      </a>
-                    </li>
-                    <li className="menu-item">
-                      <a
-                        href="/#blog-section"
-                        onClick={() => linkClick()}
-                      >
-                        Blog
-                      </a>
-                    </li>
-                    <li className="menu-item">
-                      <a
                         href="/#contact-section"
                         onClick={() => linkClick()}
                       >
                         Contact
                       </a>
-                    </li>
-                    <li className="menu-item menu-item-has-children has-children">
-                      <a
-                        className="position-relative"
-                        onClick={() => setPageToggle(!pageToggle)}
-                      >
-                        <span>
-                          Pages
-                        </span>
-                        <i className="fas fa-chevron-down pageArrow"></i>
-                      </a>
-                      <ul
-                        className="sub-menu"
-                        style={{
-                          marginTop: "1rem",
-                          display: `${pageToggle ? "block" : "none"}`,
-                        }}
-                      >
-                        <li className="menu-item">
-                          <Link href="/works">
-                            <a
-                              onClick={() => linkClick()}
-                            >
-                              Works (grid)
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="menu-item">
-                          <Link href="/works-list">
-                            <a
-                              onClick={() => linkClick()}
-                            >
-                              Works (list)
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="menu-item">
-                          <Link href="/work-single">
-                            <a
-                              onClick={() => linkClick()}
-                            >
-                              Work Single Page
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="menu-item">
-                          <Link href="/blog">
-                            <a
-                              onClick={() => linkClick()}
-                            >
-                              Blog Posts
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="menu-item">
-                          <Link href="/blog-single">
-                            <a
-                              onClick={() => linkClick()}
-                            >
-                              Blog Single Post
-                            </a>
-                          </Link>
-                        </li>
-                      </ul>
                     </li>
                   </ul>
                 </div>
