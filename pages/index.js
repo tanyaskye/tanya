@@ -94,30 +94,28 @@ const Index = () => {
                 <div
                   className="subtitle"
                 >
-                  UI UX DESIGNER
+                  Physiotherapist
                 </div>
                 <h2
                   className="title"
                 >
-                  Federico Ober
+                  Tanya Agrawal
                 </h2>
               </div>
               <div
                 className="description"
               >
                 <p>
-                  I am UI/UX Designer based in New York and enjoy playing
-                  with colors. I love travelling, photography &amp; music.
+                Passionate physiotherapist with expertise in musculoskeletal & sports rehab. 
+                Committed to patient care, utilizing advanced therapies &amp; empowering 
+                individuals for optimal recovery and wellness.
                 </p>
                 <div className="social-links">
-                  <a target="_blank" rel="noreferrer" href="#">
-                    <i aria-hidden="true" className="fab fa-twitter" />
+                  <a target="_blank" rel="noreferrer" href="https://www.instagram.com/tanyaagrawal.1652/">
+                    <i aria-hidden="true" className="fab fa-instagram" />
                   </a>
-                  <a target="_blank" rel="noreferrer" href="#">
-                    <i aria-hidden="true" className="fab fa-dribbble" />
-                  </a>
-                  <a target="_blank" rel="noreferrer" href="#">
-                    <i aria-hidden="true" className="fab fa-behance" />
+                  <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/tanya-agrawal-4093081b5/">
+                    <i aria-hidden="true" className="fab fa-linkedin" />
                   </a>
                 </div>
               </div>
@@ -125,13 +123,13 @@ const Index = () => {
             <div className="info-list">
               <ul>
                 <li>
-                  Born in <strong>NewYork</strong>
+                  From <strong>Jaipur, India</strong>
                 </li>
                 <li>
-                  Experience <strong>7+ Years</strong>
+                  Experience <strong>2+ Years</strong>
                 </li>
                 <li>
-                  Date of Birth <strong>27 June 1992</strong>
+                Volunteer Experience <strong>3+ Years</strong>
                 </li>
               </ul>
             </div>
@@ -161,7 +159,7 @@ const Index = () => {
                   <div className="icon">
                     <i aria-hidden="true" className="far fa-check-circle" />
                   </div>
-                  <div className="num">124</div>
+                  <div className="num">5</div>
                   <div className="title">
                     Completed <br />
                     Project
@@ -173,7 +171,7 @@ const Index = () => {
                   <div className="icon">
                     <i aria-hidden="true" className="far fa-smile-beam" />
                   </div>
-                  <div className="num">65</div>
+                  <div className="num">500+</div>
                   <div className="title">
                     Happy <br />
                     Clients
@@ -185,7 +183,7 @@ const Index = () => {
                   <div className="icon">
                     <i aria-hidden="true" className="far fa-gem" />
                   </div>
-                  <div className="num">18</div>
+                  <div className="num">7</div>
                   <div className="title">
                     Awards <br />
                     Won
@@ -200,21 +198,19 @@ const Index = () => {
                   className="text"
                 >
                   <p>
-                    My name is Federico Ober. I have been studying UI UX Design
-                    since October 2020. I like creating a cool design project.
+                    Hello! I'm Tanya Agrawal, a Glasgow-based physiotherapist 
+                    passionate about personalized care and advanced rehabilitation.
                   </p>
                   <p>
-                    Donec imperdiet risus at tortor consequat maximus et eget
-                    magna. Cras ornare sagittis augue, id sollicitudin justo
-                    tristique ut. Nullam ex enim, euismod vel bibendum ultrices,
-                    fringilla vel eros. Donec euismod leo lectus, et euismod
-                    metus euismod sed. Quisque quis suscipit ipsum, at
-                    pellentesque velit. Duis a congue sem.
+                    With a strong foundation in neuro-musculoskeletal and sports 
+                    rehab, I strive to empower individuals on their journey to 
+                    optimal wellness. My approach combines expertise in manual 
+                    therapy, cognitive communication, and patient-centered care.
                   </p>
                   <p>
-                    In sed dolor ut ligula malesuada sollicitudin. Morbi iaculis
-                    convallis arcu, nec maximus tellus sodales in. Curabitur
-                    blandit enim at nisl lobortis, non pretium enim hendrer
+                    I'm dedicated to helping you achieve optimal wellness 
+                    through tailored treatments and a holistic perspective 
+                    on health. Let's work together towards a healthier, happier you!
                   </p>
                   <a
                     href="#contact-section"
@@ -254,12 +250,11 @@ const Index = () => {
                 className="text"
               >
                 <p>
-                  Talented UX designer with 7+ years of experience, seeking to
-                  elevate UI/UX at ABC, Inc. As Lead UI/UX Head completed
-                  project before dead line. ittis augue, id sollicitudin justo
-                  tristique ut. Nullam ex enim, euismod vel bibendum ultrices,
-                  fringilla vel eros. Donec euism od leo um, at pellentesque
-                  velituis a congue sem.
+                  Explore my professional journey and qualifications in 
+                  the field of physiotherapy. From a Master's in Advanced 
+                  Physiotherapy Practices to extensive experience in 
+                  musculoskeletal and sports rehabilitation, discover 
+                  how I can contribute to your health and wellness needs.
                 </p>
               </div>
               {/* Skills */}
@@ -272,7 +267,7 @@ const Index = () => {
                 <div
                   className="skills-item"
                 >
-                  <div className="name">Photoshop</div>
+                  <div className="name">Manual Therapy</div>
                   <div className="dots dots-90">
                     <div className="dots-row">
                       <div className="dot" />
@@ -294,8 +289,8 @@ const Index = () => {
                 <div
                   className="skills-item"
                 >
-                  <div className="name">WordPress</div>
-                  <div className="dots dots-60">
+                  <div className="name">Sports Rehabilitation</div>
+                  <div className="dots dots-70">
                     <div className="dots-row">
                       <div className="dot" />
                       <div className="dot" />
@@ -310,13 +305,13 @@ const Index = () => {
                     </div>
                   </div>
                   <div className="value">
-                    <span className="num">60%</span>
+                    <span className="num">70%</span>
                   </div>
                 </div>
                 <div
                   className="skills-item"
                 >
-                  <div className="name">HTML</div>
+                  <div className="name">Patient Care</div>
                   <div className="dots dots-80">
                     <div className="dots-row">
                       <div className="dot" />
@@ -338,8 +333,8 @@ const Index = () => {
                 <div
                   className="skills-item"
                 >
-                  <div className="name">Java</div>
-                  <div className="dots dots-50">
+                  <div className="name">Critical Thinking</div>
+                  <div className="dots dots-90">
                     <div className="dots-row">
                       <div className="dot" />
                       <div className="dot" />
@@ -354,14 +349,14 @@ const Index = () => {
                     </div>
                   </div>
                   <div className="value">
-                    <span className="num">50%</span>
+                    <span className="num">90%</span>
                   </div>
                 </div>
                 <div
                   className="skills-item"
                 >
-                  <div className="name">jQuery</div>
-                  <div className="dots dots-70">
+                  <div className="name">Leadership</div>
+                  <div className="dots dots-90">
                     <div className="dots-row">
                       <div className="dot" />
                       <div className="dot" />
@@ -376,7 +371,7 @@ const Index = () => {
                     </div>
                   </div>
                   <div className="value">
-                    <span className="num">70%</span>
+                    <span className="num">90%</span>
                   </div>
                 </div>
               </div>
@@ -392,18 +387,19 @@ const Index = () => {
                     className="services-item"
                   >
                     <div className="icon">
-                      <i aria-hidden="true" className="fab fa-chrome" />
+                      <i aria-hidden="true" className="fab fa-dumbbell" />
                     </div>
-                    <div className="title">Web development</div>
+                    <div className="title">Musculoskeletal Rehabilitation</div>
                     <div className="text">
                       <p>
-                        Modern and mobile-ready website that will help you reach
-                        all of your marketing.
+                        Restore mobility, reduce pain, and improve 
+                        function through personalized treatment plans 
+                        tailored to your specific needs.
                       </p>
                     </div>
-                    <a href="#contact-section" className="lnk">
+                    {/* <a href="#contact-section" className="lnk">
                       order now
-                    </a>
+                    </a> */}
                   </div>
                 </div>
                 <div className="services-col">
@@ -411,18 +407,19 @@ const Index = () => {
                     className="services-item"
                   >
                     <div className="icon">
-                      <i aria-hidden="true" className="fab fa-soundcloud" />
+                      <i aria-hidden="true" className="fab fa-person-walking" />
                     </div>
-                    <div className="title">Music writing</div>
+                    <div className="title">Post-Surgical Rehabilitation</div>
                     <div className="text">
                       <p>
-                        Music copying, writing, creating, transcription and
-                        composition services.
+                        Regain strength and mobility after surgery with a 
+                        comprehensive rehabilitation program designed to 
+                        facilitate optimal recovery.
                       </p>
                     </div>
-                    <a href="#contact-section" className="lnk">
+                    {/* <a href="#contact-section" className="lnk">
                       order now
-                    </a>
+                    </a> */}
                   </div>
                 </div>
                 <div className="services-col">
@@ -430,18 +427,19 @@ const Index = () => {
                     className="services-item"
                   >
                     <div className="icon">
-                      <i aria-hidden="true" className="fab fa-adversal" />
+                      <i aria-hidden="true" className="fab fa-bars-progress" />
                     </div>
-                    <div className="title">Advetising</div>
+                    <div className="title">Pain Management</div>
                     <div className="text">
                       <p>
-                        Advertising services include television, radio, print,
-                        mail, and web apps.
+                        Alleviate chronic pain and discomfort through 
+                        targeted therapies and techniques, empowering you 
+                        to live a pain-free life.
                       </p>
                     </div>
-                    <a href="#contact-section" className="lnk">
+                    {/* <a href="#contact-section" className="lnk">
                       order now
-                    </a>
+                    </a> */}
                   </div>
                 </div>
                 <div className="services-col">
@@ -449,18 +447,60 @@ const Index = () => {
                     className="services-item"
                   >
                     <div className="icon">
-                      <i aria-hidden="true" className="fas fa-gamepad" />
+                      <i aria-hidden="true" className="fas fa-heart-pulse" />
                     </div>
-                    <div className="title">Game Development</div>
+                    <div className="title">Preventive Care and Wellness</div>
                     <div className="text">
                       <p>
-                        Developing memorable and unique mobile android, ios and
-                        video games.
+                        Enhance your overall well-being and prevent future 
+                        injuries with customized exercise programs and 
+                        lifestyle recommendations.
                       </p>
                     </div>
-                    <a href="#contact-section" className="lnk">
+                    {/* <a href="#contact-section" className="lnk">
                       order now
-                    </a>
+                    </a> */}
+                  </div>
+                </div>
+                <div className="services-col">
+                  <div
+                    className="services-item"
+                  >
+                    <div className="icon">
+                      <i aria-hidden="true" className="fab fa-brain" />
+                    </div>
+                    <div className="title">Mental Rehabilitation</div>
+                    <div className="text">
+                      <p>
+                        Rehabilitation with the aim to develop the 
+                        emotional, social, physical and intellectual 
+                        skills to live, learn and work in the community 
+                        with complete independency.
+                      </p>
+                    </div>
+                    {/* <a href="#contact-section" className="lnk">
+                      order now
+                    </a> */}
+                  </div>
+                </div>
+                <div className="services-col">
+                  <div
+                    className="services-item"
+                  >
+                    <div className="icon">
+                      <i aria-hidden="true" className="fab fa-hand-holding-heart" />
+                    </div>
+                    <div className="title">Pelvic floor Rehabilitation</div>
+                    <div className="text">
+                      <p>
+                        Rehab of pelvic floor instabilities and 
+                        dis-functions with the aim to enhance functionality 
+                        in women's activities of daily living.
+                      </p>
+                    </div>
+                    {/* <a href="#contact-section" className="lnk">
+                      order now
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -577,342 +617,6 @@ const Index = () => {
               >
                 <span>Download CV</span>
               </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section
-        className="section section-bg section-parallax section-parallax-5"
-        id="works-section"
-      >
-        <div className="container">
-          {/* Section Heading */}
-          <div className="m-titles">
-            <h2
-              className="m-title"
-            >
-              My Projects
-            </h2>
-          </div>
-          <div className="row row-custom">
-            <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3"></div>
-            <div className="col-xs-12 col-sm-12 col-md-9 col-lg-9 vertical-line">
-              {/* Description */}
-              <div
-                className="text"
-              >
-                <p>
-                  A Collection of my favorites project I’ve designed recently.
-                  Feeling great while sharing here.
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* Works */}
-          <ProjectIsotop />
-        </div>
-      </section>
-      <section className="section" id="pricing-section">
-        <div className="container">
-          {/* Section Heading */}
-          <div className="m-titles">
-            <h2
-              className="m-title"
-            >
-              Pricing Plans
-            </h2>
-          </div>
-          <div className="row row-custom">
-            <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3"></div>
-            <div className="col-xs-12 col-sm-12 col-md-9 col-lg-9 vertical-line">
-              {/* Description */}
-              <div
-                className="text"
-              >
-                <p>
-                  Are you interested to work with me ? Here are my price list
-                  for design related work. Lets talk about project !
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* Pricing */}
-          <div className="pricing-items row">
-            <div className="pricing-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
-              <div
-                className="pricing-item"
-              >
-                <div className="title">Full Time</div>
-                <div className="subtitle">Available for Full Time</div>
-                <div className="price">$1200</div>
-                <div className="text">
-                  <ul>
-                    <li>Brand Design</li>
-                    <li>Advertising</li>
-                    <li>Web Development</li>
-                    <li>Photography</li>
-                  </ul>
-                </div>
-                <a href="#contact-section" className="btn">
-                  <span>Hire Me</span>
-                </a>
-              </div>
-            </div>
-            <div className="pricing-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
-              <div
-                className="pricing-item"
-              >
-                <div className="title">Project Wise</div>
-                <div className="subtitle">Available for Freelancing</div>
-                <div className="price">$400</div>
-                <div className="text">
-                  <ul>
-                    <li>Brand Design</li>
-                    <li>Advertising</li>
-                    <li>Web Development</li>
-                    <li>Photography</li>
-                  </ul>
-                </div>
-                <a href="#contact-section" className="btn">
-                  <span>Hire Me</span>
-                </a>
-              </div>
-            </div>
-            <div className="pricing-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
-              <div
-                className="pricing-item"
-              >
-                <div className="title">Hourley</div>
-                <div className="subtitle">Available for Hourley Basis</div>
-                <div className="price">$60</div>
-                <div className="text">
-                  <ul>
-                    <li>Brand Design</li> <li>Advertising</li>
-                    <li>Web Development</li> <li>Photography</li>
-                  </ul>
-                </div>
-                <a href="#contact-section" className="btn">
-                  <span>Hire Me</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="section no-padding-top section-parallax section-parallax-4">
-        <div className="container">
-          {/* Testimonials */}
-          <TestimonialSlider />
-        </div>
-      </section>
-      <section className="section section-bg" id="blog-section">
-        <div className="container">
-          {/* Section Heading */}
-          <div className="m-titles">
-            <h2
-              className="m-title"
-            >
-              My Blog
-            </h2>
-          </div>
-          <div className="row row-custom">
-            <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3"></div>
-            <div className="col-xs-12 col-sm-12 col-md-9 col-lg-9 vertical-line">
-              {/* Description */}
-              <div
-                className="text"
-              >
-                <p>
-                  Suspendisse potenti. Sed egestas eros eu libero posuere
-                  ultrices. Nullam ut aliquet felis, sit amet imperdiet felis.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Blog */}
-        <div className="blog-items">
-          <div className="archive-item">
-            <div className="image">
-              <Link href="/blog-single">
-                <a>
-                  <img
-                    src="assets/images/blog4.jpg"
-                    alt="Usability Secrets to Create Better User Interfaces"
-                  />
-                </a>
-              </Link>
-            </div>
-            <div className="desc">
-              <div
-                className="category"
-              >
-                UI Design
-                <br />
-                <span>November 28, 2021</span>
-              </div>
-              <h3
-                className="title"
-              >
-                <Link href="/blog-single">
-                  <a>Usability Secrets to Create Better User Interfaces</a>
-                </Link>
-              </h3>
-              <div
-                className="text"
-              >
-                <p>
-                  Vivamus interdum suscipit lacus. Nunc ultrices accumsan
-                  mattis. Aliquam vel sem vel velit efficitur malesuada. Donec
-                  arcu lacus, ornare eget…{" "}
-                </p>
-                <div className="readmore">
-                  <Link href="/blog-single">
-                    <a className="lnk">Read more</a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="archive-item">
-            <div className="image">
-              <Link href="/blog-single">
-                <a>
-                  <img
-                    src="assets/images/blog3.jpg"
-                    alt="Three Ways To Level Up Your Photography"
-                  />
-                </a>
-              </Link>
-            </div>
-            <div className="desc">
-              <div
-                className="category"
-              >
-                Branding
-                <br />
-                <span>November 28, 2021</span>
-              </div>
-              <h3
-                className="title"
-              >
-                <Link href="/blog-single">
-                  <a>Three Ways To Level Up Your Photography</a>
-                </Link>
-              </h3>
-              <div
-                className="text"
-              >
-                <p>
-                  Vivamus interdum suscipit lacus. Nunc ultrices accumsan
-                  mattis. Aliquam vel sem vel velit efficitur malesuada. Donec
-                  arcu lacus, ornare eget…{" "}
-                </p>
-                <div className="readmore">
-                  <Link href="/blog-single">
-                    <a className="lnk">Read more</a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="archive-item">
-            <div className="image">
-              <Link href="/blog-single">
-                <a>
-                  <img
-                    src="assets/images/single7.jpg"
-                    alt="10 Useful Tips to Improve Your UI Designs"
-                  />
-                </a>
-              </Link>
-            </div>
-            <div className="desc">
-              <div
-                className="category"
-              >
-                Photography
-                <br />
-                <span>November 28, 2021</span>
-              </div>
-              <h3
-                className="title"
-              >
-                <Link href="/blog-single">
-                  <a>10 Useful Tips to Improve Your UI Designs</a>
-                </Link>
-              </h3>
-              <div
-                className="text"
-              >
-                <p>
-                  Vivamus interdum suscipit lacus. Nunc ultrices accumsan
-                  mattis. Aliquam vel sem vel velit efficitur malesuada. Donec
-                  arcu lacus, ornare eget…
-                </p>
-                <div className="readmore">
-                  <Link href="/blog-single">
-                    <a className="lnk">Read more</a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="blog-more-link">
-          <Link href="/blog">
-            <a
-              className="btn"
-            >
-              <span>View Blog</span>
-            </a>
-          </Link>
-        </div>
-      </section>
-      <section className="section section-parallax section-parallax-5">
-        <div className="container">
-          {/* Section Heading */}
-          <div className="m-titles">
-            <h2
-              className="m-title"
-            >
-              My Clients
-            </h2>
-          </div>
-          <div className="row row-custom">
-            <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3"></div>
-            <div className="col-xs-12 col-sm-12 col-md-9 col-lg-9 vertical-line">
-              {/* Description */}
-              <div
-                className="text"
-              >
-                <p>
-                  Suspendisse potenti. Sed egestas eros eu libero posuere
-                  ultrices. Nullam ut aliquet felis, sit amet imperdiet felis.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="row clients-items">
-            <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3 align-center">
-              <div className="clients-item">
-                <img src="assets/images/brand1.png" alt="" />
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3 align-center">
-              <div className="clients-item">
-                <img src="assets/images/brand2.png" alt="" />
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3 align-center">
-              <div className="clients-item">
-                <img src="assets/images/brand3.png" alt="" />
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3 align-center">
-              <div className="clients-item">
-                <img src="assets/images/brand4.png" alt="" />
-              </div>
             </div>
           </div>
         </div>

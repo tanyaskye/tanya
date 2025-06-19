@@ -9,14 +9,11 @@ const Footer = () => {
               <div
                 className="social-links"
               >
-                <a target="_blank" rel="noreferrer" href="http://twitter.com">
-                  <i aria-hidden="true" className="fab fa-twitter" />
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/tanya-agrawal-4093081b5/">
+                  <i aria-hidden="true" className="fab fa-linkedin" />
                 </a>
-                <a target="_blank" rel="noreferrer" href="http://dribble.com">
-                  <i aria-hidden="true" className="fab fa-dribbble" />
-                </a>
-                <a target="_blank" rel="noreferrer" href="http://behance.com">
-                  <i aria-hidden="true" className="fab fa-behance" />
+                <a target="_blank" rel="noreferrer" href="https://www.instagram.com/tanyaagrawal.1652/">
+                  <i aria-hidden="true" className="fab fa-instagram" />
                 </a>
               </div>
             </div>
@@ -24,14 +21,14 @@ const Footer = () => {
               <div
                 className="copyright-text"
               >
-                © 2022 Ober. All Rights Reserved
+                © 2025 Tanya Agrawal. All Rights Reserved
               </div>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 align-right">
               <div
                 className="copyright-text"
               >
-                Developed by <strong>beshleyua</strong>
+                Deployed by <strong>vercel</strong>
               </div>
             </div>
           </div>

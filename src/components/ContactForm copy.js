@@ -7,15 +7,12 @@ const ContactForm = () => {
     messages: "",
   });
   const [error, setError] = useState(false);
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [responseMessage, setResponseMessage] = useState("");
-
   const { name, email, messages } = contactData;
 
   const onChange = (e) =>
     setContactData({ ...contactData, [e.target.name]: e.target.value });
 
-  const onSubmit = async (e) => {
+  const onSubmit = (e) => {
     e.preventDefault();
     if (name.length === 0 || email.length === 0 || messages.length === 0) {
       setError(true);
@@ -24,39 +21,9 @@ const ContactForm = () => {
       }, 2000);
     } else {
       setError(false);
-      setIsSubmitting(true);
-
-      const formData = {
-        name,
-        email,
-        message: messages,
-        subject: "Contact Form Submission", // Default subject
-        honeypot: "", // Anti-spam field
-        replyTo: email, // Reply-to email
-        apiKey: "sf_m9e57jik1189he12f4ich63i", // Replace with your actual API key
-      };
-
-      try {
-        const res = await fetch("https://api.staticforms.xyz/submit", {
-          method: "POST",
-          body: JSON.stringify(formData),
-          headers: { "Content-Type": "application/json" },
-        });
-
-        const json = await res.json();
-
-        if (json.success) {
-          setResponseMessage("Thank you for your message! We'll get back to you soon.");
-          setContactData({ name: "", email: "", messages: "" });
-        } else {
-          setResponseMessage(json.message || "An error occurred. Please try again.");
-        }
-      } catch (error) {
-        console.error("Error submitting form:", error);
-        setResponseMessage("An error occurred while submitting the form. Please try again.");
-      } finally {
-        setIsSubmitting(false);
-      }
+      setTimeout(() => {
+        setContactData({ name: "", email: "", messages: "" });
+      }, 2000);
     }
   };
 
@@ -68,35 +35,47 @@ const ContactForm = () => {
       <div className="container">
         {/* Section Heading */}
         <div className="m-titles">
-          <h2 className="m-title">Contact Me</h2>
+          <h2
+            className="m-title"
+          >
+            Contact Me
+          </h2>
         </div>
         <div className="row row-custom">
           <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3 align-right">
             {/* Section numbers */}
             <div className="numbers-items contacts-items">
-              <div className="numbers-item">
+              <div
+                className="numbers-item"
+              >
                 <div className="icon">
                   <i aria-hidden="true" className="fas fa-phone" />
                 </div>
-                <div className="num">+44 7522-750413</div>
+                <div className="num">+1 023-456-7800</div>
               </div>
-              <div className="numbers-item">
+              <div
+                className="numbers-item"
+              >
                 <div className="icon">
                   <i aria-hidden="true" className="fas fa-at" />
                 </div>
-                <div className="num">contact@tanyaagrawal.in</div>
+                <div className="num">hi@ober.com</div>
               </div>
-              <div className="numbers-item">
+              <div
+                className="numbers-item"
+              >
                 <div className="icon">
                   <i aria-hidden="true" className="fas fa-location-arrow" />
                 </div>
-                <div className="num">Chelmsford, United Kingdom CM1 7DU</div>
+                <div className="num">43rd Street River Point NY 1023</div>
               </div>
             </div>
           </div>
           <div className="col-xs-12 col-sm-12 col-md-9 col-lg-9 vertical-line">
             {/* contact form */}
-            <div className="contacts-form">
+            <div
+              className="contacts-form"
+            >
               <form id="cform" onSubmit={(e) => onSubmit(e)}>
                 <label>
                   Name
@@ -131,26 +110,28 @@ const ContactForm = () => {
                 <label>
                   Message
                   <textarea
-                    name="messages"
+                    name="message"
                     value={messages}
                     onChange={(e) => onChange(e)}
                     placeholder="Enter your message here"
                   />
                   {error && !messages && (
-                    <label id="message-error" className="error" htmlFor="messages">
+                    <label
+                      id="message-error"
+                      className="error"
+                      htmlFor="message"
+                    >
                       This field is required.
                     </label>
                   )}
                 </label>
-                <button type="submit" className="btn" disabled={isSubmitting}>
-                  {isSubmitting ? "Sending..." : "Submit"}
-                </button>
+                <a href="#" className="btn" onClick={(e) => onSubmit(e)}>
+                  Submit
+                </a>
               </form>
-              {responseMessage && (
-                <div className={`alert ${responseMessage.includes("Thank you") ? "alert-success" : "alert-error"}`}>
-                  <p>{responseMessage}</p>
-                </div>
-              )}
+            </div>
+            <div className="alert-success" style={{ display: "none" }}>
+              <p>Thanks, your message is sent successfully.</p>
             </div>
           </div>
         </div>
@@ -158,5 +139,4 @@ const ContactForm = () => {
     </section>
   );
 };
-
 export default ContactForm;
