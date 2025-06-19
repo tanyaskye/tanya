@@ -78,19 +78,19 @@ const ContactForm = () => {
                 <div className="icon">
                   <i aria-hidden="true" className="fas fa-phone" />
                 </div>
-                <div className="num">+1 023-456-7800</div>
+                <div className="num">+44 7522-750413</div>
               </div>
               <div className="numbers-item">
                 <div className="icon">
                   <i aria-hidden="true" className="fas fa-at" />
                 </div>
-                <div className="num">hi@ober.com</div>
+                <div className="num">contact@tanyaagrawal.in</div>
               </div>
               <div className="numbers-item">
                 <div className="icon">
                   <i aria-hidden="true" className="fas fa-location-arrow" />
                 </div>
-                <div className="num">43rd Street River Point NY 1023</div>
+                <div className="num">Chelmsford, United Kingdom CM1 7DU</div>
               </div>
             </div>
           </div>
