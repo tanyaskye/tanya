@@ -407,7 +407,7 @@ const Index = () => {
                     className="services-item"
                   >
                     <div className="icon">
-                      <i aria-hidden="true" className="fa fa-person-running" />
+                      <i aria-hidden="true" className="fa fa-futbol" />
                     </div>
                     <div className="title">Post-Surgical Rehabilitation</div>
                     <div className="text">
@@ -427,7 +427,7 @@ const Index = () => {
                     className="services-item"
                   >
                     <div className="icon">
-                      <i aria-hidden="true" className="fa fa-bars-progress" />
+                      <i aria-hidden="true" className="fa fa-fire-flame-simple" />
                     </div>
                     <div className="title">Pain Management</div>
                     <div className="text">
