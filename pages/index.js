@@ -427,7 +427,7 @@ const Index = () => {
                     className="services-item"
                   >
                     <div className="icon">
-                      <i aria-hidden="true" className="fa fa-fire-flame-simple" />
+                      <i aria-hidden="true" className="fa fa-stethoscope" />
                     </div>
                     <div className="title">Pain Management</div>
                     <div className="text">
