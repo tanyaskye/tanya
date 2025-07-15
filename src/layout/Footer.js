@@ -28,7 +28,7 @@ const Footer = () => {
               <div
                 className="copyright-text"
               >
-                Deployed by <strong>vercel</strong>
+                Deployed on <strong>vercel</strong>
               </div>
             </div>
           </div>
