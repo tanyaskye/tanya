@@ -17,7 +17,8 @@ const Index = () => {
             <div
               className="slide"
             >
-              <img src="assets/images/profile.png" alt="" />
+              {/* <img src="assets/images/profile.png" alt="" /> */}
+              <img src="assets/images/tanya_profile.png" alt="" />
               <span className="circle circle-1">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -515,9 +516,13 @@ const Index = () => {
                   <div
                     className="history-item"
                   >
-                    <div className="date">2010 - 2012</div>
-                    <div className="name">Master in Graphic</div>
-                    <div className="subname">New York University</div>
+                    <div className="date">Sept'23 - Nov'24</div>
+                    <div className="name">Masters in Advance Physiotherapy Practice</div>
+                    <div className="subname">Glasgow Caledonian University
+                      <br></br>
+                      <strong>Research Project: </strong>Effects of combining Transverse Abdominis and pelvic floor muscles training in comparison to Pelvic floor exercises alone in post-partum women with stress
+urinary incontinence
+                    </div>
                   </div>
                   <div
                     className="history-item"
