@@ -520,6 +520,7 @@ const Index = () => {
                     <div className="name">Masters in Advance Physiotherapy Practice</div>
                     <div className="subname">Glasgow Caledonian University
                       <br></br>
+                      <br></br>
                       <strong>Research Project: </strong>Effects of combining Transverse Abdominis and pelvic floor muscles training in comparison to Pelvic floor exercises alone in post-partum women with stress
 urinary incontinence
                     </div>
@@ -527,9 +528,13 @@ urinary incontinence
                   <div
                     className="history-item"
                   >
-                    <div className="date">2006 - 2009</div>
-                    <div className="name">Bachelors of FineArt</div>
-                    <div className="subname">New York University</div>
+                    <div className="date">Aug’17 - June’22</div>
+                    <div className="name">Bachelors in Physiotherapy</div>
+                    <div className="subname">Mahatma Gandhi University of Medical Sciences and Technology
+                      <br></br>
+                      <br></br>
+                      <strong>Case Studies: </strong>Pediatric and Geriatric mental health rehabilitation, ACL rehabilitations, Neuro-rehabilitation, Cardio-Thoracic rehabilitation 
+                    </div>
                   </div>
                 </div>
                 <div className="history-items">
@@ -541,24 +546,33 @@ urinary incontinence
                   <div
                     className="history-item"
                   >
-                    <div className="date">2016 - awwwards</div>
-                    <div className="name">Site of the Day</div>
+                    <div className="date">21 Mar'21</div>
+                    <div className="name">PNF Approaches</div>
                     <div className="text">
                       <p>
-                        Euismod vel bibendum ultrices, fringilla vel eros, donec
-                        euismod leo lectus.
+                        Movement Science Academy
                       </p>
                     </div>
                   </div>
                   <div
                     className="history-item"
                   >
-                    <div className="date">2015 - designnominees</div>
-                    <div className="name">Site of the Week</div>
+                    <div className="date">24 Oct'22</div>
+                    <div className="name">IASTM Technique</div>
                     <div className="text">
                       <p>
-                        Euismod vel bibendum ultrices, fringilla vel eros, donec
-                        euismod leo lectus.
+                        Proakt Physio Pvt Ltd
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    className="history-item"
+                  >
+                    <div className="date">5 Jan'20</div>
+                    <div className="name">Cupping Therapy</div>
+                    <div className="text">
+                      <p>
+                        Rehealth Education
                       </p>
                     </div>
                   </div>
@@ -574,39 +588,40 @@ urinary incontinence
                   <div
                     className="history-item"
                   >
-                    <div className="date">2014 - Present</div>
-                    <div className="name">Soft Tech Inc.</div>
-                    <div className="subname">UI Head &amp; Manager</div>
+                    <div className="date">Sept'24 - Dec'24</div>
+                    <div className="name">BSC Football Club - Glasgow</div>
+                    <div className="subname">Sport Physiotherapist - Volunteer</div>
                     <div className="text">
                       <p>
-                        Euismod vel bibendum ultrices, fringilla vel eros, donec
-                        euismod leo lectus.
+                        Provided care with expertise in musculoskeletal & sports rehab. Committed to patient care, utilizing advanced therapies & empowering individuals for optimal recovery and wellness.
+                        <br></br>
+                        Website: bscglasgow.co.uk
                       </p>
                     </div>
                   </div>
                   <div
                     className="history-item"
                   >
-                    <div className="date">2010 - 2014</div>
-                    <div className="name">Kana Design Studio</div>
-                    <div className="subname">UI / UX Specialist</div>
+                    <div className="date">June'22 - Sept'23</div>
+                    <div className="name">BTN Physio Hub Centre</div>
+                    <div className="subname">Consultant Physical Therapist</div>
                     <div className="text">
                       <p>
-                        Euismod vel bibendum ultrices, fringilla vel eros, donec
-                        euismod leo lectus.
+                        Provided expert care for a broad spectrum of conditions, encompassing musculoskeletal disorders, pediatric cases, neurological challenges, cardiorespiratory rehabilitation, geriatric care, and sports rehabilitation. Delivered prompt and effective interventions while adhering to established time frames.
                       </p>
                     </div>
                   </div>
                   <div
                     className="history-item"
                   >
-                    <div className="date">2009 - 2010</div>
-                    <div className="name">Paperart</div>
-                    <div className="subname">Graphic Designer</div>
+                    <div className="date">June'22 - August'23</div>
+                    <div className="name">The PhysioRehab Clinic</div>
+                    <div className="subname">Consultant Physical Therapis</div>
                     <div className="text">
                       <p>
-                        Euismod vel bibendum ultrices, fringilla vel eros, donec
-                        euismod leo lectus.
+                        Expanded expertise to focus on musculoskeletal and sports rehab, implementing efficient, high-impact interventions without compromising quality. Achieved 85% rise in patient recovery rates, demonstrating approach effectiveness.
+                        <br></br>
+                        Website: thephysiorehab.in
                       </p>
                     </div>
                   </div>
