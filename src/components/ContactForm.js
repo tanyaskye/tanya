@@ -33,7 +33,7 @@ const ContactForm = () => {
         subject: "Contact Form Submission", // Default subject
         honeypot: "", // Anti-spam field
         replyTo: email, // Reply-to email
-        apiKey: process.env.FORM_API_KEY, // Read from environment variable "", // Replace with your actual API key 
+        apiKey: process.env.REACT_APP_API_KEY, // Read from environment variable "", // Replace with your actual API key 
       };
 
       try {
