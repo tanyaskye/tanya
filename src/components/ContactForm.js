@@ -1,6 +1,6 @@
 import { useState } from "react";
 const ContactForm = () => {
-    console.log("API Key from env:", process.env.REACT_APP_API_KEY); // Add this line
+  console.log("API Key from env:", process.env.REACT_APP_API_KEY); // Add this line
   const [contactData, setContactData] = useState({
     name: "",
     email: "",
