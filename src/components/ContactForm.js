@@ -1,6 +1,6 @@
 import { useState } from "react";
-
 const ContactForm = () => {
+  console.log("API Key from env:", process.env.REACT_APP_API_KEY); // Add this line
   const [contactData, setContactData] = useState({
     name: "",
     email: "",
@@ -33,7 +33,7 @@ const ContactForm = () => {
         subject: "Contact Form Submission", // Default subject
         honeypot: "", // Anti-spam field
         replyTo: email, // Reply-to email
-        apiKey: "sf_m9e57jik1189he12f4ich63i", // Replace with your actual API key
+        apiKey: process.env.REACT_APP_API_KEY, // Read from environment variable "", // Replace with your actual API key 
       };
 
       try {

@@ -387,7 +387,7 @@ const Index = () => {
                     className="services-item"
                   >
                     <div className="icon">
-                      <i aria-hidden="true" className="fab fa-dumbbell" />
+                      <i aria-hidden="true" className="fa fa-dumbbell" />
                     </div>
                     <div className="title">Musculoskeletal Rehabilitation</div>
                     <div className="text">
@@ -407,7 +407,7 @@ const Index = () => {
                     className="services-item"
                   >
                     <div className="icon">
-                      <i aria-hidden="true" className="fab fa-person-walking" />
+                      <i aria-hidden="true" className="fa fa-futbol" />
                     </div>
                     <div className="title">Post-Surgical Rehabilitation</div>
                     <div className="text">
@@ -427,7 +427,7 @@ const Index = () => {
                     className="services-item"
                   >
                     <div className="icon">
-                      <i aria-hidden="true" className="fab fa-bars-progress" />
+                      <i aria-hidden="true" className="fa fa-stethoscope" />
                     </div>
                     <div className="title">Pain Management</div>
                     <div className="text">
@@ -447,7 +447,7 @@ const Index = () => {
                     className="services-item"
                   >
                     <div className="icon">
-                      <i aria-hidden="true" className="fas fa-heart-pulse" />
+                      <i aria-hidden="true" className="fa fa-heart" />
                     </div>
                     <div className="title">Preventive Care and Wellness</div>
                     <div className="text">
@@ -467,7 +467,7 @@ const Index = () => {
                     className="services-item"
                   >
                     <div className="icon">
-                      <i aria-hidden="true" className="fab fa-brain" />
+                      <i aria-hidden="true" className="fa fa-brain" />
                     </div>
                     <div className="title">Mental Rehabilitation</div>
                     <div className="text">
@@ -488,7 +488,7 @@ const Index = () => {
                     className="services-item"
                   >
                     <div className="icon">
-                      <i aria-hidden="true" className="fab fa-hand-holding-heart" />
+                      <i aria-hidden="true" className="fa fa-hand-holding-heart" />
                     </div>
                     <div className="title">Pelvic floor Rehabilitation</div>
                     <div className="text">
