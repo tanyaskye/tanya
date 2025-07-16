@@ -632,7 +632,7 @@ urinary incontinence
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://bslthemes.site/ober/wp-content/uploads/2021/12/Jacky-Smith-Resume.pdf"
+                href="https://drive.google.com/file/d/1QoTBC236G7YGDZcJdA4i7wA4B_KgNyTl/view?usp=drive_link"
                 className="btn"
               >
                 <span>Download CV</span>
